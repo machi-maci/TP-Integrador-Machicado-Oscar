@@ -4,8 +4,7 @@
         "name": "Celular",
         "brand": "Motorola",
         "price": 2000,
-        "description": "Fotografía profesional en tu bolsillo
-        Descubrí infinitas posibilidades para tus fotos con las 3 cámaras principales de tu equipo. Poné a prueba tu creatividad y jugá con la iluminación, diferentes planos y efectos para obtener grandes resultados.",
+        "description": "Descubrí infinitas posibilidades para tus fotos con las 3 cámaras principales de tu equipo. Poné a prueba tu creatividad y jugá con la iluminación, diferentes planos y efectos para obtener grandes resultados.",
         "images": "img/celular.jpg"
     },
     {
@@ -77,8 +76,7 @@
   "name": "Ventilador",
   "brand": "Liliana",
   "price": 1500,
-  "description": "
-  Su funcionamiento está adaptado e ideado para entornos industriales. Esto hace que los distintos gases y aromas sean removidos sin inconvenientes. A su vez, tiene la capacidad de resistir ambientes severos, sin verse afectado por altas temperaturas ni presiones.",
+  "description": "Su funcionamiento está adaptado e ideado para entornos industriales. Esto hace que los distintos gases y aromas sean removidos sin inconvenientes. A su vez, tiene la capacidad de resistir ambientes severos, sin verse afectado por altas temperaturas ni presiones.",
   "images": "img/ventilador.jpg"
   }
   ]
