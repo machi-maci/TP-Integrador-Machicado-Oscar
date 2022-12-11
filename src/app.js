@@ -21,9 +21,17 @@ app.use('/users', users);
 
 const products = require('./routes/products');
 app.use('/products', products);
+
+function notFound(params) {
+
+}
+//NOT FOUND ---- siempre va al final para que pase primero por las otras rutas
+app.use('*', (req, res, next) => {
+    res.render('404-page');
+})
 /*
 app.get('/', (req, res) => {
-        res.send('Hola Amigo!!!');
+        res.send('Hola Compa!!!');
 })  
 app.get('/home', (req, res) => {
     res.send('HOME');
