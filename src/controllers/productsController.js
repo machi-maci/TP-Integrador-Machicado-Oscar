@@ -12,7 +12,13 @@ let controller = {
         res.render('home', {productos: products});
     },
     detail: (req, res) => {
-        res.render('detail', {productos: products});
+        products.forEach(product => {
+            if ( product.id == req.params.id ) {
+                res.render('detail', {producto: product});
+            }
+        })
+        res.redirect('/404-paged');
+        console.log(req.params.id);
     }
 }
 

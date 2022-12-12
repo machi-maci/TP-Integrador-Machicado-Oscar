@@ -23,7 +23,12 @@
 
       <ul>
         <% productos.forEach(producto => { %>
-            <div class="parf1"><li><h2><%= producto.name %></h2> <img class="tamañopng" src="/img/default.jfif" alt=""> - $<%= producto.price %> - <%= producto.description %>   </li></div>
+            <div class="parf1">
+              <li><a href="/products/detail/<%= producto.id %> "><h2><%= producto.name %></h2></a>
+                <img class="tamañopng" src="/img/<%= producto.images %> " alt=""> 
+                - $<%= producto.price %> - <%= producto.brand %>   
+              </li>
+            </div>
          
         <% }) %>
       </ul>

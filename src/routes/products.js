@@ -4,6 +4,6 @@ const router = express.Router();
 
 
 router.get('/', controller.home);
-router.get('/detail', controller.detail); /// se conecta con linea 7 productsController.js
+router.get('/detail/:id', controller.detail); /// se conecta con linea 7 productsController.js
 
 module.exports = router;

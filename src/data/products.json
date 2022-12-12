@@ -5,7 +5,7 @@
         "brand": "Motorola",
         "price": 2000,
         "description": "Descubrí infinitas posibilidades para tus fotos con las 3 cámaras principales de tu equipo. Poné a prueba tu creatividad y jugá con la iluminación, diferentes planos y efectos para obtener grandes resultados.",
-        "images": "img/celular.jpg"
+        "images": "celular.jpg"
     },
     {
       "id": 2,
@@ -13,7 +13,7 @@
       "brand": "Samsung",
       "price": 10000,
       "description": "Disfrutá de tus alimentos frescos y almacenalos de manera práctica y cómoda en la heladera Vondom, la protagonista de la cocina.",
-      "images": "img/heladera.jpg"
+      "images": "heladera.jpg"
     },
     {
       "id": 3,
@@ -21,7 +21,7 @@
       "brand": "Drean",
       "price": 4000,
       "description": "Desde su lanzamiento al mercado en la década del 40, Drean permanece en la memoria de los argentinos como una marca de electrodomésticos confiables, modernos y accesibles. Su gama de productos confirma su compromiso de brindarte más tiempo libre y de contribuir a lograr un planeta más limpio.",
-      "images": "img/lavarropas.jpg"
+      "images": "lavarropas.jpg"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "brand": "Sansei",
     "price": 3000,
     "description": "Para cocineros express o amantes del arte del buen comer, un microondas es un aliado indiscutible de la cocina. Ahorrá tiempo, llevá los alimentos a su punto de cocción o volvé a deleitarte con los sabores de los platos que ya preparaste.",
-    "images": "img/celular.jpg"
+    "images": "microondas.jpg"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "brand": "Bosch",
     "price": 5000,
     "description": "Bosch es una empresa multinacional proveedora de elementos tecnológicos y electrodomésticos. Ofrece soluciones innovadoras para el hogar que mejorar la calidad de vida.",
-    "images": "img/lavaplatos.jpg"
+    "images": "lavaplatos.jpg"
   },
   {
   "id": 6,
@@ -45,7 +45,7 @@
   "brand": "SIAM",
   "price": 3500,
   "description": "En este freezer Eslabón de Lujo podés guardar grandes cantidades de alimentos, por largos períodos de tiempo en condiciones óptimas sin preocuparte por desperdiciar comida.",
-  "images": "img/freezer.jpg"
+  "images": "freezer.jpg"
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "brand": "Philips",
     "price": 5500,
     "description": "El compromiso de Philips es brindar nuevas e innovadoras tecnologías. Es por esa razón que se centra en los detalles para poder ofrecer productos que marcan la diferencia y crean una experiencia visual más increíble y auténtica.",
-    "images": "img/televisor.jpg"
+    "images": "televisor.jpg"
   },
   {
   "id": 8,
@@ -61,7 +61,7 @@
   "brand": "SONY",
   "price": 8000,
   "description": "Con tu consola PlayStation 5 tendrás entretenimiento asegurado todos los días. Su tecnología fue creada para poner nuevos retos tanto a jugadores principiantes como expertos.",
-  "images": "img/ps5.jpg"
+  "images": "ps5.jpg"
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "brand": "Electra",
     "price": 9000,
     "description": "Climatizar tus espacios a lo largo del año es algo importante para tu comodidad. Un aire acondicionado frío/calor Electra Trend Inverter es la mejor decisión, ya que conseguís una mejor relación costo-beneficio.",
-    "images": "img/aire.jpg"
+    "images": "aire.jpg"
   },
   {
   "id": 10,
@@ -77,6 +77,6 @@
   "brand": "Liliana",
   "price": 1500,
   "description": "Su funcionamiento está adaptado e ideado para entornos industriales. Esto hace que los distintos gases y aromas sean removidos sin inconvenientes. A su vez, tiene la capacidad de resistir ambientes severos, sin verse afectado por altas temperaturas ni presiones.",
-  "images": "img/ventilador.jpg"
+  "images": "ventilador.jpg"
   }
   ]

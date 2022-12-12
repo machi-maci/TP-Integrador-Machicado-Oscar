@@ -9,12 +9,15 @@
 </head>
 <body>
   <%- include('partials/header.ejs')  %> 
-
-
-  <h6> <%= productos[0].name %> </h6> 
-
-
-
+  <h1>Detalles de Producto</h1>
+  <hr>
+  
+  <div class="parf5">
+  <h2><%= producto.name %> - <%= producto.brand %> </h2> 
+  <p>$ <%= producto.price %> </p>
+  <img class="rectangulovertical" src="/img/<%= producto.images %> " alt="">
+  <p><%= producto.description %></p> 
+  </div>
   <%- include('partials/footer.ejs')  %> 
   
 </body>
