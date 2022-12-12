@@ -10878,7 +10878,11 @@ textarea.form-control-lg {
 }
 
 
-
+.tamañopng {
+  width: 250px;
+  border-radius: 5%;
+  border: 1px solid grey;
+}
 
 
 .rectangulo {
