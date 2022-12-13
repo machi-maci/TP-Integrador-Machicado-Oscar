@@ -19,6 +19,14 @@ app.use('/', main);
 const users = require('./routes/users');
 app.use('/users', users);
 
+
+
+const create = require('./routes/create');
+app.use('/create', create);
+const edit = require('./routes/edit');
+app.use('/edit', edit);
+
+
 const products = require('./routes/products');
 app.use('/products', products);
 

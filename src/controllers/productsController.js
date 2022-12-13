@@ -17,7 +17,7 @@ let controller = {
                 res.render('detail', {producto: product});
             }
         })
-        res.redirect('/404-paged');
+        //res.redirect('/404-paged');
         console.log(req.params.id);
     }
 }

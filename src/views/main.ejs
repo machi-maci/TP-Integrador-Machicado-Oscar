@@ -21,18 +21,22 @@
 
       <h1>Listado de Productos</h1>
 
-      <ul>
+      
         <% productos.forEach(producto => { %>
-            <div class="parf1">
-              <li><a href="/products/detail/<%= producto.id %> "><h2><%= producto.name %></h2></a>
+          
+              <div class="parf1">
+              <a href="/products/detail/<%= producto.id %> "><h2><%= producto.name %></h2></a>
                 <img class="tamañopng" src="/img/<%= producto.images %> " alt=""> 
                 - $<%= producto.price %> - <%= producto.brand %>   
-              </li>
-            </div>
+              </div>
+            
          
         <% }) %>
-      </ul>
+      
 
+
+
+      
 
 
 
